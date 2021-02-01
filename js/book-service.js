@@ -57,6 +57,7 @@ function _createBook(name, price = getRandomIntInclusive(1, 100), imgNum = 1) {
     }
 }
 
+
 function _saveBooksToStorage() {
     saveToStorage(KEY, gBooks)
 }
