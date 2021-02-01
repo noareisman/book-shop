@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    background-color: rgb(243, 237, 182);
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+}
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+}
+
+table{
+    width: 650px;  
+    margin: 10px; 
+    background-color: white;
+}
+
+.pages-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+span[class$='btn'] {
+    cursor: pointer;
+}
+
+div[class$='page'] {
+    float: right;
+    cursor: pointer;
+    background-color: gray;
+    height: 25px;
+    width: 25px;
+    color: black;
+    margin: 1px;
+}
+
+.modal {
+    background-color: lightgray;
+    padding: 10px;
+    /* position: absolute; */
+    top: 10px;
+    left: 50%;
+    height: 100%;
+    width: 650px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.delete-btn{
+background-color: tomato;
+padding: 15px;
+}
+.read-btn{
+    background-color: rgb(77, 142, 185);
+    padding: 15px;
+}
+.update-btn{
+    background-color: rgb(141, 201, 73);
+    padding: 15px;
+}
+
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.plus-minus-btn{
+    height: 25px;
+    width: 25px;
+    
+}
+
+.chosen-rating{
+    margin: 5px;
+}
